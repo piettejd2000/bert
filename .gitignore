@@ -1,0 +1,21 @@
+# Local model copies — hosted on HuggingFace Hub, not committed
+models_shared/
+
+# Large model files (belt-and-suspenders)
+*.pt
+*.safetensors
+*.bin
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Secrets
+.streamlit/secrets.toml
+.env
+
+# macOS / caches
+.DS_Store
+models_cache/
+*_OLD.py
